@@ -1,0 +1,60 @@
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file G:/esp_idf_sdk/hello_world/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "hello_world" version: 1
+-- Adding linker script G:/esp_idf_sdk/hello_world/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/app_trace G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/app_update G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/bootloader_support G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/bt G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/cmock G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/console G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/cxx G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/driver G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/efuse G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp-tls G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_adc G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_app_format G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_bootloader_format G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_coex G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_common G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_eth G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_event G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_gdbstub G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hid G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_client G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_http_server G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_ota G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_https_server G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_hw_support G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_lcd G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_local_ctrl G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_mm G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_netif_stack G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_partition G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_phy G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_pm G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_psram G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_ringbuf G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_rom G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_system G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_timer G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esp_wifi G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/espcoredump G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/esptool_py G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/fatfs G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/freertos G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/hal G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/heap G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/http_parser G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/idf_test G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/ieee802154 G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/json G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/log G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/lwip G:/esp_idf_sdk/hello_world/main G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/mbedtls G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/mqtt G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/newlib G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_flash G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/nvs_sec_provider G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/openthread G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/partition_table G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/perfmon G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/protobuf-c G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/protocomm G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/pthread G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/sdmmc G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/soc G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/spi_flash G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/spiffs G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/tcp_transport G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/ulp G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/unity G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/usb G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/vfs G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/wear_levelling G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/wifi_provisioning G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/wpa_supplicant G:/esp_idf_sdk/Espressif/frameworks/esp-idf-v5.2.1/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/esp_idf_sdk/hello_world/build
+[0/1] Re-running CMake...
+[1/918] Generating project_elf_src_esp32.c
+[2/918] Generating memory.ld linker script...
+[3/918] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[4/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj
+[5/918] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/x25519.c.obj
+[6/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[7/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[8/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[9/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[10/918] Building C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj
+[11/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[12/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[13/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj
+[14/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj
+[15/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
+[16/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj
+[17/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
+[18/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+[19/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
+[20/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
+[21/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
+[22/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
+[23/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
+[24/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
+[25/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
+[26/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
+[27/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
+[28/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
+[29/918] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
+ninja: build stopped: interrupted by user.

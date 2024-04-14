@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+G:/esp_idf_sdk/hello_world/build/CMakeFiles/bootloader
+G:/esp_idf_sdk/hello_world/build/CMakeFiles/bootloader.rule
+G:/esp_idf_sdk/hello_world/build/CMakeFiles/bootloader-complete.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+G:/esp_idf_sdk/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
